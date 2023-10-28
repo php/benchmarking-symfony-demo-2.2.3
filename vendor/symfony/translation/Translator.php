@@ -25,6 +25,8 @@ use Symfony\Contracts\Translation\LocaleAwareInterface;
 use Symfony\Contracts\Translation\TranslatableInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
+use function substr;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(MessageCatalogue::class);
 

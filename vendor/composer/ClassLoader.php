@@ -12,6 +12,8 @@
 
 namespace Composer\Autoload;
 
+use function substr;
+
 /**
  * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.
  *

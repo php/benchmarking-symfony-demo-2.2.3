@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function substr;
+
 /**
  * ServerBag is a container for HTTP headers from the $_SERVER variable.
  *

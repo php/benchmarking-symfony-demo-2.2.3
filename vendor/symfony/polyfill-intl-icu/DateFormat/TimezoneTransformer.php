@@ -13,6 +13,8 @@ namespace Symfony\Polyfill\Intl\Icu\DateFormat;
 
 use Symfony\Polyfill\Intl\Icu\Exception\NotImplementedException;
 
+use function substr;
+
 /**
  * Parser and formatter for time zone format.
  *

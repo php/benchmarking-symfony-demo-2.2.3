@@ -15,6 +15,8 @@ use Symfony\Component\HttpKernel\Debug\FileLinkFormatter;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 
+use function substr;
+
 /**
  * Twig extension relate to PHP code and used by the profiler and the default exception templates.
  *

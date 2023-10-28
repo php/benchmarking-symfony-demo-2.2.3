@@ -18,6 +18,8 @@ use Symfony\Component\HttpKernel\Controller\ArgumentValueResolverInterface;
 use Symfony\Component\HttpKernel\Controller\ValueResolverInterface;
 use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
 
+use function substr;
+
 /**
  * Yields a service keyed by _controller and argument name.
  *

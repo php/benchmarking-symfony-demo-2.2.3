@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function substr;
+
 /**
  * HTTP header utility functions.
  *

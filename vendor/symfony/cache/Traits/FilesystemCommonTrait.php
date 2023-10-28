@@ -13,6 +13,8 @@ namespace Symfony\Component\Cache\Traits;
 
 use Symfony\Component\Cache\Exception\InvalidArgumentException;
 
+use function substr;
+
 /**
  * @author Nicolas Grekas <p@tchwork.com>
  *

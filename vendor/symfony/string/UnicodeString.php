@@ -14,6 +14,8 @@ namespace Symfony\Component\String;
 use Symfony\Component\String\Exception\ExceptionInterface;
 use Symfony\Component\String\Exception\InvalidArgumentException;
 
+use function substr;
+
 /**
  * Represents a string of Unicode grapheme clusters encoded as UTF-8.
  *

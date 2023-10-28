@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\Intl;
 
+use function substr;
+
 if (!class_exists(\Locale::class)) {
     throw new \LogicException(sprintf('You cannot use the "%s\Locale" class as the "intl" extension is not installed. See https://php.net/intl.', __NAMESPACE__));
 }

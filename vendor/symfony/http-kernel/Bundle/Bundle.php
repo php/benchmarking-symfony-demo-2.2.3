@@ -17,6 +17,8 @@ use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
+use function substr;
+
 /**
  * An implementation of BundleInterface that adds a few conventions for DependencyInjection extensions.
  *

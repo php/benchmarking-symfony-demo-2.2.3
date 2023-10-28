@@ -14,6 +14,8 @@ namespace Twig\Loader;
 use Twig\Error\LoaderError;
 use Twig\Source;
 
+use function substr;
+
 /**
  * Loads template from the filesystem.
  *

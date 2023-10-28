@@ -11,6 +11,8 @@
 
 namespace Symfony\Polyfill\Intl\Icu\DateFormat;
 
+use function substr;
+
 /**
  * Parser and formatter for month format.
  *

@@ -11,6 +11,8 @@
 
 namespace Symfony\Polyfill\Mbstring;
 
+use function substr;
+
 /**
  * Partial mbstring implementation in PHP, iconv based, UTF-8 centric.
  *

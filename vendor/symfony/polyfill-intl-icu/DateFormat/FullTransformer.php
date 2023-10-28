@@ -14,6 +14,8 @@ namespace Symfony\Polyfill\Intl\Icu\DateFormat;
 use Symfony\Polyfill\Intl\Icu\Exception\NotImplementedException;
 use Symfony\Polyfill\Intl\Icu\Icu;
 
+use function substr;
+
 /**
  * Parser and formatter for date formats.
  *

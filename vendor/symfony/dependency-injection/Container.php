@@ -25,6 +25,8 @@ use Symfony\Component\DependencyInjection\ParameterBag\FrozenParameterBag;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Contracts\Service\ResetInterface;
 
+use function substr;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(RewindableGenerator::class);
 class_exists(ArgumentServiceLocator::class);

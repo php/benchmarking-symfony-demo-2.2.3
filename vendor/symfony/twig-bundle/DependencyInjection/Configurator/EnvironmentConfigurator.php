@@ -15,6 +15,8 @@ use Symfony\Bridge\Twig\UndefinedCallableHandler;
 use Twig\Environment;
 use Twig\Extension\CoreExtension;
 
+use function class_exists;
+
 // BC/FC with namespaced Twig
 class_exists(Environment::class);
 

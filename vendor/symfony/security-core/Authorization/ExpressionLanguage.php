@@ -14,6 +14,8 @@ namespace Symfony\Component\Security\Core\Authorization;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage as BaseExpressionLanguage;
 
+use function class_exists;
+
 if (!class_exists(BaseExpressionLanguage::class)) {
     throw new \LogicException(sprintf('The "%s" class requires the "ExpressionLanguage" component. Try running "composer require symfony/expression-language".', ExpressionLanguage::class));
 } else {

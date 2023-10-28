@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpFoundation\Session\Storage;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(NativeSessionStorage::class);
 

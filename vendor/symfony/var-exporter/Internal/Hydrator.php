@@ -13,6 +13,8 @@ namespace Symfony\Component\VarExporter\Internal;
 
 use Symfony\Component\VarExporter\Exception\ClassNotFoundException;
 
+use function class_exists;
+
 /**
  * @author Nicolas Grekas <p@tchwork.com>
  *

@@ -18,6 +18,8 @@ use Symfony\Bridge\Doctrine\Security\RememberMe\DoctrineTokenProvider;
 use Symfony\Component\Security\Http\RememberMe\PersistentRememberMeHandler;
 use Symfony\Component\Security\Http\RememberMe\RememberMeHandlerInterface;
 
+use function class_exists;
+
 /**
  * Automatically adds the rememberme table needed for the {@see DoctrineTokenProvider}.
  *

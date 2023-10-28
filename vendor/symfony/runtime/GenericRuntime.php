@@ -16,6 +16,8 @@ use Symfony\Component\Runtime\Resolver\ClosureResolver;
 use Symfony\Component\Runtime\Resolver\DebugClosureResolver;
 use Symfony\Component\Runtime\Runner\ClosureRunner;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ClosureResolver::class);
 

@@ -11,6 +11,8 @@
 
 namespace Symfony\Bridge\Doctrine\Attribute;
 
+use function class_exists;
+
 /**
  * Indicates that a controller argument should receive an Entity.
  */

@@ -71,6 +71,8 @@ use Symfony\Component\Validator\DependencyInjection\AddValidatorInitializersPass
 use Symfony\Component\VarExporter\Internal\Hydrator;
 use Symfony\Component\VarExporter\Internal\Registry;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ApcuAdapter::class);
 class_exists(ArrayAdapter::class);

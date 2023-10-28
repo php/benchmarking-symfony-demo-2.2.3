@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ResponseHeaderBag::class);
 

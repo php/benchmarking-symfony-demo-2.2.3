@@ -16,6 +16,8 @@ use Doctrine\ORM\Tools\Event\GenerateSchemaEventArgs;
 use Doctrine\ORM\Tools\ToolEvents;
 use Symfony\Component\Cache\Adapter\DoctrineDbalAdapter;
 
+use function class_exists;
+
 /**
  * Automatically adds the cache table needed for the DoctrineDbalAdapter of
  * the Cache component.

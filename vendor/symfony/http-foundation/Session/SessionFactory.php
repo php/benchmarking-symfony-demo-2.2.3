@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpFoundation\Session;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Session\Storage\SessionStorageFactoryInterface;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(Session::class);
 

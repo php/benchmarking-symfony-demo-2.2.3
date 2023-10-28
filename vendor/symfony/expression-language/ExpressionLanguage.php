@@ -14,6 +14,8 @@ namespace Symfony\Component\ExpressionLanguage;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ParsedExpression::class);
 

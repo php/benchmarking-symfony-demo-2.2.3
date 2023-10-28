@@ -16,6 +16,8 @@ use Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandle
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy;
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(MetadataBag::class);
 class_exists(StrictSessionHandler::class);

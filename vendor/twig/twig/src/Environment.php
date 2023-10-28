@@ -33,6 +33,8 @@ use Twig\NodeVisitor\NodeVisitorInterface;
 use Twig\RuntimeLoader\RuntimeLoaderInterface;
 use Twig\TokenParser\TokenParserInterface;
 
+use function class_exists;
+
 /**
  * Stores the Twig configuration and renders templates.
  *

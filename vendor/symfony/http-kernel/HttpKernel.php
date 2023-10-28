@@ -32,6 +32,8 @@ use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ControllerArgumentsEvent::class);
 class_exists(ControllerEvent::class);

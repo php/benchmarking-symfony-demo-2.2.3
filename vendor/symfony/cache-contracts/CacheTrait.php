@@ -15,6 +15,8 @@ use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(InvalidArgumentException::class);
 

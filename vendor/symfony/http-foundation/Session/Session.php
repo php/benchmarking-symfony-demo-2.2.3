@@ -19,6 +19,8 @@ use Symfony\Component\HttpFoundation\Session\Storage\MetadataBag;
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
 use Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(AttributeBag::class);
 class_exists(FlashBag::class);

@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpKernel\Event;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 
+use function class_exists;
+
 /**
  * Allows filtering of a controller callable.
  *

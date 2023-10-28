@@ -29,6 +29,8 @@ use Symfony\Component\PropertyInfo\PropertyReadInfoExtractorInterface;
 use Symfony\Component\PropertyInfo\PropertyWriteInfo;
 use Symfony\Component\PropertyInfo\PropertyWriteInfoExtractorInterface;
 
+use function class_exists;
+
 /**
  * Default implementation of {@link PropertyAccessorInterface}.
  *

@@ -14,6 +14,8 @@ namespace Symfony\Component\VarExporter\Internal;
 use Symfony\Component\VarExporter\Exception\ClassNotFoundException;
 use Symfony\Component\VarExporter\Exception\NotInstantiableTypeException;
 
+use function class_exists;
+
 /**
  * @author Nicolas Grekas <p@tchwork.com>
  *

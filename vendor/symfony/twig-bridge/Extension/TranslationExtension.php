@@ -23,6 +23,8 @@ use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(TranslatorInterface::class);
 class_exists(TranslatorTrait::class);

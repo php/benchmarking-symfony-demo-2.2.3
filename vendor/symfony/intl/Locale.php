@@ -11,6 +11,7 @@
 
 namespace Symfony\Component\Intl;
 
+use function class_exists;
 use function substr;
 
 if (!class_exists(\Locale::class)) {

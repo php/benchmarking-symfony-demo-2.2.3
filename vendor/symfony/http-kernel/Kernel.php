@@ -39,6 +39,8 @@ use Symfony\Component\HttpKernel\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\AddAnnotatedClassesToCachePass;
 use Symfony\Component\HttpKernel\DependencyInjection\MergeExtensionConfigurationPass;
 
+use function class_exists;
+
 // Help opcache.preload discover always-needed symbols
 class_exists(ConfigCache::class);
 

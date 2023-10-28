@@ -15,6 +15,8 @@ use Symfony\Component\DependencyInjection\Exception\EnvNotFoundException;
 use Symfony\Component\DependencyInjection\Exception\ParameterCircularReferenceException;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 
+use function strpos;
+
 /**
  * @author Nicolas Grekas <p@tchwork.com>
  */

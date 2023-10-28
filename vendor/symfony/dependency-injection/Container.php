@@ -25,6 +25,7 @@ use Symfony\Component\DependencyInjection\ParameterBag\FrozenParameterBag;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Contracts\Service\ResetInterface;
 
+use function strpos;
 use function substr;
 
 // Help opcache.preload discover always-needed symbols

@@ -37,6 +37,8 @@
 
 namespace Symfony\Polyfill\Intl\MessageFormatter;
 
+use function strpos;
+
 /**
  * A polyfill implementation of the MessageFormatter class provided by the intl extension.
  *

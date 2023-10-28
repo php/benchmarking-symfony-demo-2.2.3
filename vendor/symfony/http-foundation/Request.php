@@ -17,6 +17,7 @@ use Symfony\Component\HttpFoundation\Exception\SessionNotFoundException;
 use Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
+use function strpos;
 use function substr;
 
 // Help opcache.preload discover always-needed symbols

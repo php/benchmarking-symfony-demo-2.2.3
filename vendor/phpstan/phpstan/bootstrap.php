@@ -4,6 +4,8 @@ namespace PHPStan;
 
 use Composer\Autoload\ClassLoader;
 
+use function strpos;
+
 final class PharAutoloader
 {
 	/** @var ClassLoader */

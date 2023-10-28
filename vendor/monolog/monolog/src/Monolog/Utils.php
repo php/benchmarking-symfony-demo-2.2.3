@@ -11,6 +11,7 @@
 
 namespace Monolog;
 
+use function strpos;
 use function substr;
 
 final class Utils

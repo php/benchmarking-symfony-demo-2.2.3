@@ -16,6 +16,8 @@ use Symfony\Polyfill\Intl\Icu\Exception\MethodArgumentNotImplementedException;
 use Symfony\Polyfill\Intl\Icu\Exception\MethodArgumentValueNotImplementedException;
 use Symfony\Polyfill\Intl\Icu\Exception\MethodNotImplementedException;
 
+use function strpos;
+
 /**
  * Replacement for PHP's native {@link \IntlDateFormatter} class.
  *

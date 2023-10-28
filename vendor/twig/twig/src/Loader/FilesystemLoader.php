@@ -14,6 +14,7 @@ namespace Twig\Loader;
 use Twig\Error\LoaderError;
 use Twig\Source;
 
+use function strpos;
 use function substr;
 
 /**

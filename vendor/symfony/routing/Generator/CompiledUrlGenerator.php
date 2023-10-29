@@ -15,6 +15,8 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\RouteNotFoundException;
 use Symfony\Component\Routing\RequestContext;
 
+use function strstr;
+
 /**
  * Generates URLs based on rules dumped by CompiledUrlGeneratorDumper.
  */

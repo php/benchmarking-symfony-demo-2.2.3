@@ -18,6 +18,7 @@ use Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 use function class_exists;
+use function str_starts_with;
 use function strpos;
 use function substr;
 

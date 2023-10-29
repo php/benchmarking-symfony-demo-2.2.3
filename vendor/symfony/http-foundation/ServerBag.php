@@ -11,6 +11,7 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function str_starts_with;
 use function substr;
 
 /**

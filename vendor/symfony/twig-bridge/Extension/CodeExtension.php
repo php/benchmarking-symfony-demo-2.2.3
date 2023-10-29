@@ -15,6 +15,7 @@ use Symfony\Component\HttpKernel\Debug\FileLinkFormatter;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 
+use function str_starts_with;
 use function substr;
 
 /**

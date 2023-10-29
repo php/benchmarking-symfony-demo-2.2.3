@@ -20,6 +20,8 @@ use Symfony\Component\HttpKernel\Event\ControllerArgumentsEvent;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
+use function is_numeric;
+
 /**
  * Handles HTTP cache headers configured via the Cache attribute.
  *

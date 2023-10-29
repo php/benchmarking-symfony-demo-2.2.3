@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpKernel\HttpCache;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+use function str_contains;
+
 /**
  * Esi implements the ESI capabilities to Request and Response instances.
  *

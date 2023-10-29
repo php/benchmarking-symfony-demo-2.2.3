@@ -40,6 +40,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\AddAnnotatedClassesToCacheP
 use Symfony\Component\HttpKernel\DependencyInjection\MergeExtensionConfigurationPass;
 
 use function class_exists;
+use function str_contains;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(ConfigCache::class);

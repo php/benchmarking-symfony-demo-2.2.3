@@ -23,6 +23,8 @@ use Symfony\Component\ErrorHandler\ErrorRenderer\CliErrorRenderer;
 use Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer;
 use Symfony\Component\ErrorHandler\Exception\SilencedErrorContext;
 
+use function str_contains;
+
 /**
  * A generic ErrorHandler for the PHP engine.
  *

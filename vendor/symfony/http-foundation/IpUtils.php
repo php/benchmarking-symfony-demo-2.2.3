@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function str_contains;
+
 /**
  * Http utility functions.
  *

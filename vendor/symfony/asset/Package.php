@@ -15,6 +15,7 @@ use Symfony\Component\Asset\Context\ContextInterface;
 use Symfony\Component\Asset\Context\NullContext;
 use Symfony\Component\Asset\VersionStrategy\VersionStrategyInterface;
 
+use function str_contains;
 use function str_starts_with;
 
 /**

@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpKernel\Controller;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpFoundation\Request;
 
+use function str_contains;
+
 /**
  * This implementation uses the '_controller' request attribute to determine
  * the controller to execute.

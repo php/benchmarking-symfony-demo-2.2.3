@@ -12,6 +12,7 @@
 
 namespace Composer\Autoload;
 
+use function strtr;
 use function substr;
 
 /**

@@ -11,6 +11,8 @@
 
 namespace Symfony\Component\HttpFoundation;
 
+use function strtr;
+
 /**
  * ResponseHeaderBag is a container for Response HTTP headers.
  *

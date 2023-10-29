@@ -26,6 +26,7 @@ use Symfony\Contracts\Translation\TranslatableInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
 use function class_exists;
+use function strtr;
 use function substr;
 
 // Help opcache.preload discover always-needed symbols

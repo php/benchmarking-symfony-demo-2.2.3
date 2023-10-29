@@ -23,6 +23,8 @@ use Throwable;
 use Stringable;
 use WeakMap;
 
+use function strtr;
+
 /**
  * Monolog log channel
  *

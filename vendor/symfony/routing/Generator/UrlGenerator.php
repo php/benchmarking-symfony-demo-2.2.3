@@ -18,6 +18,8 @@ use Symfony\Component\Routing\Exception\RouteNotFoundException;
 use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Routing\RouteCollection;
 
+use function strtr;
+
 /**
  * UrlGenerator can generate a URL or a path for any route in the RouteCollection
  * based on the passed parameters.

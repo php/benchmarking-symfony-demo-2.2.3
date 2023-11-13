@@ -13,6 +13,9 @@ namespace Symfony\Polyfill\Intl\Grapheme;
 
 use function strpos;
 use function substr;
+use function preg_match;
+use function preg_replace;
+use function implode;
 
 \define('SYMFONY_GRAPHEME_CLUSTER_RX', ((float) \PCRE_VERSION < 10 ? (float) \PCRE_VERSION >= 8.32 : (float) \PCRE_VERSION >= 10.39) ? '\X' : Grapheme::GRAPHEME_CLUSTER_RX);
 

@@ -17,6 +17,8 @@ use Twig\TwigFilter;
 
 use function str_starts_with;
 use function substr;
+use function str_replace;
+use function trim;
 
 /**
  * Twig extension relate to PHP code and used by the profiler and the default exception templates.

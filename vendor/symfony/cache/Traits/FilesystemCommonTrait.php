@@ -14,6 +14,7 @@ namespace Symfony\Component\Cache\Traits;
 use Symfony\Component\Cache\Exception\InvalidArgumentException;
 
 use function substr;
+use function str_replace;
 
 /**
  * @author Nicolas Grekas <p@tchwork.com>

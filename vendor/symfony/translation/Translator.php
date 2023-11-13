@@ -28,6 +28,7 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 use function class_exists;
 use function strtr;
 use function substr;
+use function preg_match;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(MessageCatalogue::class);

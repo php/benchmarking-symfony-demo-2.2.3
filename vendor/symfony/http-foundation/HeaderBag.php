@@ -12,6 +12,7 @@
 namespace Symfony\Component\HttpFoundation;
 
 use function strtr;
+use function implode;
 
 /**
  * HeaderBag is a container for HTTP headers.

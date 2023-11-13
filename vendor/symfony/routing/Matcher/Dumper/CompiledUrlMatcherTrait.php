@@ -17,6 +17,8 @@ use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Symfony\Component\Routing\Matcher\RedirectableUrlMatcherInterface;
 use Symfony\Component\Routing\RequestContext;
 
+use function preg_match;
+
 /**
  * @author Nicolas Grekas <p@tchwork.com>
  *

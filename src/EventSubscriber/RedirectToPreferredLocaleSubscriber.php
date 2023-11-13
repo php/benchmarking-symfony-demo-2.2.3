@@ -18,6 +18,8 @@ use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use function Symfony\Component\String\u;
 
+use function trim;
+
 /**
  * When visiting the homepage, this listener redirects the user to the most
  * appropriate localized version according to the browser settings.

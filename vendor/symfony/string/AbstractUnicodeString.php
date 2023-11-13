@@ -15,6 +15,9 @@ use Symfony\Component\String\Exception\ExceptionInterface;
 use Symfony\Component\String\Exception\InvalidArgumentException;
 use Symfony\Component\String\Exception\RuntimeException;
 
+use function implode;
+use function preg_match;
+
 /**
  * Represents a string of abstract Unicode characters.
  *

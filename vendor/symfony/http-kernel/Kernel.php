@@ -41,6 +41,8 @@ use Symfony\Component\HttpKernel\DependencyInjection\MergeExtensionConfiguration
 
 use function class_exists;
 use function str_contains;
+use function str_replace;
+use function preg_match;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(ConfigCache::class);

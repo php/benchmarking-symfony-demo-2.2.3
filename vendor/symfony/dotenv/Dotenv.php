@@ -17,7 +17,10 @@ use Symfony\Component\Dotenv\Exception\PathException;
 use Symfony\Component\Process\Exception\ExceptionInterface as ProcessException;
 use Symfony\Component\Process\Process;
 
+use function implode;
+use function preg_match;
 use function str_contains;
+use function str_replace;
 use function str_starts_with;
 
 /**

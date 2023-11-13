@@ -17,6 +17,9 @@ use Twig\TemplateWrapper;
 use Twig\TwigFunction;
 use function Symfony\Component\String\u;
 
+use function trim;
+use function implode;
+
 /**
  * CAUTION: this is an extremely advanced Twig extension. It's used to get the
  * source code of the controller and the template used to render the current

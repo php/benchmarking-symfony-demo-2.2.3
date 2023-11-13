@@ -16,6 +16,8 @@ use Twig\Source;
 
 use function strpos;
 use function substr;
+use function str_replace;
+use function preg_replace;
 
 /**
  * Loads template from the filesystem.

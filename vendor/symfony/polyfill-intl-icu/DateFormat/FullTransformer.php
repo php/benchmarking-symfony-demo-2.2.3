@@ -15,6 +15,9 @@ use Symfony\Polyfill\Intl\Icu\Exception\NotImplementedException;
 use Symfony\Polyfill\Intl\Icu\Icu;
 
 use function substr;
+use function implode;
+use function preg_match;
+use function str_replace;
 
 /**
  * Parser and formatter for date formats.

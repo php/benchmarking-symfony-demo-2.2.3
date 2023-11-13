@@ -15,6 +15,8 @@ use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 use Symfony\Contracts\Service\ResetInterface;
 use Symfony\WebpackEncoreBundle\Event\RenderAssetTagEvent;
 
+use function implode;
+
 /**
  * @final
  */

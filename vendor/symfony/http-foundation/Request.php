@@ -21,6 +21,8 @@ use function class_exists;
 use function str_starts_with;
 use function strpos;
 use function substr;
+use function trim;
+use function preg_replace;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(AcceptHeader::class);

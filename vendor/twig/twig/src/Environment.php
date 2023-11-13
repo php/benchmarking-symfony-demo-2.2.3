@@ -34,6 +34,7 @@ use Twig\RuntimeLoader\RuntimeLoaderInterface;
 use Twig\TokenParser\TokenParserInterface;
 
 use function class_exists;
+use function implode;
 
 /**
  * Stores the Twig configuration and renders templates.

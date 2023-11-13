@@ -15,6 +15,7 @@ use Symfony\Component\VarExporter\Exception\NotInstantiableTypeException;
 
 use function strpos;
 use function substr;
+use function implode;
 
 /**
  * @author Nicolas Grekas <p@tchwork.com>

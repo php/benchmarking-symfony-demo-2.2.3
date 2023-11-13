@@ -12,6 +12,10 @@
 namespace Symfony\Component\HttpFoundation;
 
 use function substr;
+use function trim;
+use function preg_replace;
+use function implode;
+use function preg_match;
 
 /**
  * HTTP header utility functions.

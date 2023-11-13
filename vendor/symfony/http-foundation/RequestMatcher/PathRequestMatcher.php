@@ -14,6 +14,8 @@ namespace Symfony\Component\HttpFoundation\RequestMatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestMatcherInterface;
 
+use function preg_match;
+
 /**
  * Checks the Request URL path info matches a regular expression.
  *

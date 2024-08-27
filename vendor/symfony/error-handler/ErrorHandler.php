@@ -393,7 +393,7 @@ class ErrorHandler
         // Strong errors are not authorized to be silenced.
         $level |= \E_RECOVERABLE_ERROR | \E_USER_ERROR | \E_DEPRECATED | \E_USER_DEPRECATED;
         $log = $this->loggedErrors & $type;
-        $throw = $this->thrownErrors & $type & $level;
+        $throw = (bool) ($this->thrownErrors & $type & $level);
         $type &= $level | $this->screamedErrors;
 
         // Never throw on warnings triggered by assert()

@@ -17,6 +17,8 @@ $runtime = new $runtime(($_SERVER['APP_RUNTIME_OPTIONS'] ?? $_ENV['APP_RUNTIME_O
   'project_dir' => dirname(__DIR__, 1),
 ]);
 
+set_error_handler(function () {});
+
 [$app, $args] = $runtime
     ->getResolver($app)
     ->resolve();
